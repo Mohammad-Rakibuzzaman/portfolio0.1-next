@@ -1,5 +1,9 @@
+"use client"; 
+import React, { useState } from 'react'; // Import useState
+
+
 import Image from 'next/image'
-import React from 'react'
+
 import logo from '../public/assets/navLogo.png'
 import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
@@ -7,8 +11,18 @@ import { FaGithub, FaLinkedin, FaLinkedinIn } from 'react-icons/fa'
 import { BsPersonLinesFill } from 'react-icons/bs'
 import { FaX } from 'react-icons/fa6'
 
+
+
+
 const Navbar = () => {
+    const [nav, setNav] = useState(false)
+
+    const handleNav = () => {
+      setNav(!nav);
+    }
+
   return (
+
     <div className='fixed w-full h-20 shadow-xl z-[100]'>
       <div className='flex justify-center items-center w-full h-full px-2 2xl:px-16'>
         {/* <Image src={logo} alt="/" width='50' height='10' /> */}
@@ -36,17 +50,17 @@ const Navbar = () => {
             </Link>
           </ul>
 
-          <div className='md:hidden'>
+          <div onClick={handleNav} className='md:hidden'>
             <AiOutlineMenu size={25} />
           </div>
         </div>
       </div>
 
-      <div className='fixed left-0 top-0 w-full h-screen bg-black/70'>
-        <div className='fixed left-0 top-0 w-[75%] sm:w-[65%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'>
+      <div className={!nav ? 'fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
+        <div className={!nav ? 'fixed left-0 top-0 w-[75%] sm:w-[65%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500' : 'fixed left-[-100%] p-10 ease-in duration-500'}>
           
           <div className='flex w-full items-end justify-end'>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
+            <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
               <AiOutlineClose />
             </div>
           </div>
@@ -118,5 +132,6 @@ const Navbar = () => {
     </div>
   )
 }
+
 
 export default Navbar
