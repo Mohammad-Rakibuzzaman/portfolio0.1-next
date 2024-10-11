@@ -18,25 +18,25 @@ const Projects = () => {
         <ProjectItem
           title="Ride Sharing"
           backgroundImg={propertyImage}
-          tools="Nextjs & Django"
+          tools="Next js & Django"
           projectUrl="/property"
         />
         <ProjectItem
           title="Crypto Web Application"
           backgroundImg={cryptoImg}
-          tools="Tailwindcss & Nextjs"
+          tools="TailwindCSS & Next js"
           projectUrl="/property"
         />
         <ProjectItem
           title="Netflix Clone"
           backgroundImg={netflixImg}
-          tools="Reactjs"
+          tools="React js"
           projectUrl="/property"
         />
         <ProjectItem
           title="Twitch Demo Clone"
           backgroundImg={twitchImg}
-          tools="Reactjs & Flask"
+          tools="React js & Flask"
           projectUrl="/property"
         />
       </div>
