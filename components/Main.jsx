@@ -13,7 +13,7 @@ const Main = () => {
                 <h1 className='py-4 text-gray-600'>Hi, I'm <span className='text-[#57c5aa]'>Rakib</span></h1>
                 <h1 className='py-2 text-gray-600'>A Full Stack Developer</h1>
                 
-                <div className='flex items-center justify-between max-w-[330px] m-auto py-5'>
+                <div className='flex items-center justify-between max-w-[330px] m-auto py-11'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300'>
                   <FaLinkedinIn />  
                 </div> 

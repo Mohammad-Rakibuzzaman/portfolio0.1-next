@@ -4,7 +4,7 @@ import React, { useState } from 'react'; // Import useState
 
 import Image from 'next/image'
 
-import logo from '../public/assets/navLogo.png'
+// import logo from '../public/assets/navLogo.png'
 import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedin, FaLinkedinIn } from 'react-icons/fa'
