@@ -10,7 +10,9 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-yellow-800 text-xl">Full Stack Developer</p>
+          <p className="py-2 text-black-800 italic text-xl">
+            Full Stack Developer
+          </p>
           <p className="py-4 text-gray-600">
             As a Full-Stack Developer with a strong background in Python
             (Django) and React, I specialize in building dynamic, AI-powered web
