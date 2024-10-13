@@ -230,9 +230,9 @@ const About = () => {
                     <p className="text-gray-600">Sept 21 – July 23</p>
                     <p className="text-sm text-gray-600">
                       <span className="font-bold">Software Developer:</span>{" "}
-                      Collaborated on projects related to Intel Openvino with technologies highly valued
-                      in the tech industry Next js, Tailwindcss, JavaScript,
-                      Flask, API, and Python.
+                      Collaborated on projects related to Intel Openvino with
+                      technologies highly valued in the tech industry Next js,
+                      Tailwindcss, JavaScript, Flask, API, and Python.
                     </p>
                   </div>
                 </div>
@@ -258,10 +258,7 @@ const About = () => {
                       </span>{" "}
                       Implemented Data analysis and machine learning techniques
                       through Data Acquisition, Data cleaning, Visualization,
-                      Feature Engineering, and EDA. Integrated pre-trained model
-                      and fine-tuning with a very good accuracy. For model
-                      training and fine-tuning R and Python programming
-                      languages were used.
+                      Feature Engineering, and Exploratory Data Analysis.
                     </p>
                   </div>
                 </div>
@@ -273,7 +270,7 @@ const About = () => {
         {/* Right side with image */}
         <div className="w-full h-auto m-auto col-span-1 flex flex-col items-center justify-start">
           {/* Image at the top */}
-          <div className="w-full h-[300px] md:h-[400px] shadow-xl shadow-gray-400 rounded-full flex justify-center p-2 hover:scale-105 ease-in duration-300">
+          <div className="w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] shadow-xl shadow-gray-400 rounded-full flex justify-center p-2 hover:scale-105 ease-in duration-300">
             <Image
               className="rounded-full object-cover"
               src={rtlImg}
