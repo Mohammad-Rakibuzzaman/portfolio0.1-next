@@ -38,9 +38,9 @@ const Navbar = () => {
                 Projects
               </li>
             </Link>
-            <Link href="/">
+            {/* <Link href="/">
               <li className="ml-7 text-sm uppercase hover:border-b">Blog</li>
-            </Link>
+            </Link> */}
             <Link href="/">
               <li className="ml-7 text-sm uppercase hover:border-b">Contact</li>
             </Link>
