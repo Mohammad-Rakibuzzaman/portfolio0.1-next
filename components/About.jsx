@@ -262,9 +262,14 @@ const About = () => {
                     </p>
                   </div>
                 </div>
-                <p className="py-5 text-[#25886f] font-bold text-center underline cursor-pointer">
-                  Check out some of my latest projects.
-                </p>
+                <a
+                  href="https://github.com/Mohammad-Rakibuzzaman"
+                  target="_blank"
+                >
+                  <p className="py-5 text-[#25886f] font-bold text-center underline cursor-pointer">
+                    Check out some of my latest projects.
+                  </p>
+                </a>
               </div>
             </div>
           </div>

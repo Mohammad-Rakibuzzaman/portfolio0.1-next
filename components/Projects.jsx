@@ -4,10 +4,8 @@ import propertyImage from "../public/assets/projects/property.jpg";
 import cryptoImg from "../public/assets/projects/crypto.jpg";
 import netflixImg from "../public/assets/projects/netflix.jpg";
 import twitchImg from "../public/assets/projects/twitch.jpg";
-import Link from "next/link";
+// import Link from "next/link";
 import ProjectItem from "./ProjectItem";
-
-import Property from "../app/property/Property";
 
 const Projects = () => {
   return (
@@ -22,7 +20,7 @@ const Projects = () => {
             title="Ride Sharing"
             backgroundImg={propertyImage}
             tools="Next js & Django"
-            projectUrl="https://www.youtube.com/watch?v=F_wX3RJFPBM"
+            projectUrl="/property"
           />
           <ProjectItem
             title="Crypto Web Application"

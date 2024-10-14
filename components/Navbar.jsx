@@ -5,7 +5,8 @@ import React, { useState, useEffect } from "react"; // Import useState
 
 // import logo from '../public/assets/navLogo.png'
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMedium } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 // import { BsPersonLinesFill } from "react-icons/bs";
 import { FaX } from "react-icons/fa6";
@@ -138,21 +139,34 @@ const Navbar = () => {
               </p>
 
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
-                </div>
+                <a
+                  href="https://www.linkedin.com/in/mohammad-rakib-b99975170/"
+                  target="_blank"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaLinkedinIn />
+                  </div>
+                </a>
 
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
+                <a href="https://medium.com/@roman1117459" target="_blank">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <AiOutlineMedium />
+                  </div>
+                </a>
 
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
-                </div>
-
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaX />
-                </div>
+                <a
+                  href="https://github.com/Mohammad-Rakibuzzaman"
+                  target="_blank"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaGithub />
+                  </div>
+                </a>
+                <a href="https://x.com/_astaV33" target="_blank">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                    <FaX />
+                  </div>
+                </a>
               </div>
             </div>
           </div>

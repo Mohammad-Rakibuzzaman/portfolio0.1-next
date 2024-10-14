@@ -16,7 +16,7 @@ const Contact = () => {
         <h2 className="py-4">Get in Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 ease-in duration-300">
             <div className="lg:p-4 h-full">
               <div>
                 <img
@@ -26,31 +26,49 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Name here</h2>
-                <p>Full Stack Developer</p>
+                <h2 className="py-2">Full Stack Developer</h2>
                 <p className="py-4">
                   I am available for freelance project or full-time positions.
                   Contact me and let&apos;s talk.
+                </p>{" "}
+                <p className="py-4">
+                  {" "}
+                  <span className="text-sm tracking-widest font-bold uppercase text-[#38393d]">
+                    Gmail:
+                  </span>{" "}
+                  dev.rakibuzzaman@gmail.com{" "}
                 </p>
+                Whatsapp Number: +880 1302766197
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
-
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaX />
-                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/mohammad-rakib-b99975170/"
+                    target="_blank"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a href="mailto:dev.rakibuzzaman@gmail.com">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <AiOutlineMail />
+                    </div>
+                  </a>
+                  <a
+                    href="https://github.com/Mohammad-Rakibuzzaman"
+                    target="_blank"
+                  >
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaGithub />
+                    </div>
+                  </a>
+                  <a href="https://x.com/_astaV33" target="_blank">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <FaX />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>

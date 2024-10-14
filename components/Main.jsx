@@ -92,26 +92,35 @@ const Main = () => {
 
           {/* Responsive icons */}
           <div className="flex items-center justify-between max-w-[250px] sm:max-w-[330px] m-auto py-8">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn size={20} />
-            </div>
+            <a
+              href="https://www.linkedin.com/in/mohammad-rakib-b99975170/"
+              target="_blank"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaLinkedinIn size={20} />
+              </div>
+            </a>
 
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMedium size={20} />
-            </div>
-
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub size={20} />
-            </div>
-
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaX size={20} />
-            </div>
+            <a href="https://medium.com/@roman1117459" target="_blank">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <AiOutlineMedium size={20} />
+              </div>
+            </a>
+            <a href="https://github.com/Mohammad-Rakibuzzaman" target="_blank">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaGithub size={20} />
+              </div>
+            </a>
+            <a href="https://x.com/_astaV33" target="_blank">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaX size={20} />
+              </div>
+            </a>
           </div>
 
           {/* Responsive Download Button */}
           <DownloadButton
-            href="https://drive.google.com/file/d/1JykRigWBr-gZ6doWkYwDQH7FCoc-Sxks/view?usp=sharing"
+            href="https://drive.google.com/file/d/1xU38xPJlejRCJWCM6n4DHUvC9-vGJ_2I/view?usp=sharing"
             className="px-6 py-2 sm:px-8 sm:py-3 text-sm sm:text-base lg:text-lg"
           >
             Download Resume
