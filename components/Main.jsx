@@ -78,16 +78,13 @@ const Main = () => {
             A Full Stack Developer
           </h1>
           <p className="py-4 font-serif text-gray-600 max-w-[90%] md:max-w-[80%] lg:max-w-[70%] m-auto text-sm md:text-base lg:text-lg">
-            As a Full-Stack Developer with a strong background in web
-            development and machine learning, I specialize in building dynamic,
-            AI-powered web applications tailored to meet specific client needs.
-            My experience spans from developing robust, scalable backend systems
-            to creating responsive, intuitive frontends using Next.js and React.
-            With a passion for integrating emerging technologies like GPT-based
-            AI models, I focus on delivering solutions that not only solve
-            complex problems but also enhance user experience. I’m committed to
-            staying up-to-date with the latest trends, ensuring that every
-            project I work on is both innovative and reliable.
+            I am a dedicated Full-Stack Developer with a passion for innovation,
+            specializing in AI-powered web applications. With expertise in both
+            backend and frontend development, I focus on delivering dynamic,
+            scalable solutions that integrate emerging technologies like
+            GPT-based AI models. My goal is to create impactful, user-centric
+            applications that solve complex challenges and push the boundaries
+            of what's possible in tech.
           </p>
 
           {/* Responsive icons */}

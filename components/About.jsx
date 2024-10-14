@@ -177,14 +177,6 @@ const About = () => {
           <p className="py-2 text-black-800 font-bold text-xl">
             Full Stack Developer
           </p>
-          <p className="text-sm md:text-base lg:text-lg text-gray-600">
-            I am an enthusiastic, self-motivated, reliable, responsible, and
-            hard-working person. Dynamic Software Engineer with a passion for
-            innovation and expertise in software development and machine
-            learning. Experienced in end-to-end project development, adept at
-            leveraging diverse programming languages and frameworks to drive
-            impactful solutions.
-          </p>
 
           {/* Education Section */}
           <div className="max-w-[1240px] m-auto md:grid grid-cols-3 pt-2 gap-8">
@@ -199,10 +191,11 @@ const About = () => {
                       Daffodil International University
                     </p>
                     <p className="text-gray-600">
-                      Bachelor of Science in Software Engineering
+                      Bachelor of Science in Software Engineering(Jan.
+                      2018–April 2022)
                     </p>
                     <p className="text-gray-600">CGPA: 3.32 out of 4.00</p>
-                    <p className="text-gray-600">Jan. 2018–April 2022</p>
+
                     <p className="text-sm pt-2 text-gray-600">
                       <span className="font-bold">
                         Thesis (Final Semester):
@@ -225,9 +218,11 @@ const About = () => {
               <div className="grid grid-cols-1 gap-4">
                 <div className="flex items-start py-2">
                   <div className="pl-4">
-                    <p className="text-black-800 font-bold">Masleap plc</p>
+                    <p className="text-black-800 font-bold">
+                      Masleap plc (Sept 21 – July 23)
+                    </p>
                     <p className="text-gray-600">Software Developer</p>
-                    <p className="text-gray-600">Sept 21 – July 23</p>
+
                     <p className="text-sm text-gray-600">
                       <span className="font-bold">Software Developer:</span>{" "}
                       Collaborated on projects related to Intel Openvino with
@@ -246,12 +241,13 @@ const About = () => {
               <div className="grid grid-cols-1 gap-4">
                 <div className="flex items-start py-2">
                   <div className="pl-4">
-                    <p className="text-black-800 font-bold">Fiverr</p>
+                    <p className="text-black-800 font-bold">
+                      Fiverr (2020 – 2022)
+                    </p>
                     <p className="text-gray-600">
                       Data Analyst and Machine Learning Engineer (Rated: 5 out
                       of 5)
                     </p>
-                    <p className="text-gray-600">2020 – 2022</p>
                     <p className="text-sm text-gray-600">
                       <span className="font-bold">
                         Data Analyst and ML Expert:
