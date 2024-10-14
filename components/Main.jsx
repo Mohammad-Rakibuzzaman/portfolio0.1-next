@@ -57,7 +57,7 @@
 
 // export default Main;
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMedium } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FaX } from "react-icons/fa6";
 import DownloadButton from "./DownloadButton";
@@ -97,7 +97,7 @@ const Main = () => {
             </div>
 
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMail size={20} />
+              <AiOutlineMedium size={20} />
             </div>
 
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 sm:p-6 cursor-pointer hover:scale-110 ease-in duration-300">
