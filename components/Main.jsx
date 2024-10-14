@@ -82,9 +82,7 @@ const Main = () => {
             specializing in AI-powered web applications. With expertise in both
             backend and frontend development, I focus on delivering dynamic,
             scalable solutions that integrate emerging technologies like
-            GPT-based AI models. My goal is to create impactful, user-centric
-            applications that solve complex challenges and push the boundaries
-            of what&apos;s possible in tech.
+            GPT-based AI models.
           </p>
 
           {/* Responsive icons */}
