@@ -84,7 +84,7 @@ const Main = () => {
             scalable solutions that integrate emerging technologies like
             GPT-based AI models. My goal is to create impactful, user-centric
             applications that solve complex challenges and push the boundaries
-            of what's possible in tech.
+            of what&apos;s possible in tech.
           </p>
 
           {/* Responsive icons */}

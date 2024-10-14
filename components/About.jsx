@@ -173,10 +173,10 @@ const About = () => {
           <p className="uppercase text-xl tracking-widest font-bold text-[#25886f]">
             About
           </p>
-          <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-black-800 font-bold text-xl">
-            Full Stack Developer
-          </p>
+          <h2 className="py-4">Full Stack Developer</h2>
+          {/* <p className="py-2 text-black-800 font-bold text-xl">
+            
+          </p> */}
 
           {/* Education Section */}
           <div className="max-w-[1240px] m-auto md:grid grid-cols-3 pt-2 gap-8">
@@ -188,11 +188,10 @@ const About = () => {
                 <div className="flex items-start py-2">
                   <div className="pl-4">
                     <p className="text-black-800 font-bold">
-                      Daffodil International University
+                      Daffodil International University (Jan. 2018–April 2022)
                     </p>
                     <p className="text-gray-600">
-                      Bachelor of Science in Software Engineering(Jan.
-                      2018–April 2022)
+                      Bachelor of Science in Software Engineering
                     </p>
                     <p className="text-gray-600">CGPA: 3.32 out of 4.00</p>
 
