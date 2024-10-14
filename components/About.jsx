@@ -166,7 +166,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         {/* Left side with text content */}
         <div className="col-span-2 w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl justify-center p-4 hover:scale-105 ease-in duration-300">
@@ -262,6 +262,9 @@ const About = () => {
                     </p>
                   </div>
                 </div>
+                <p className="py-5 text-[#25886f] font-bold text-center underline cursor-pointer">
+                  Check out some of my latest projects.
+                </p>
               </div>
             </div>
           </div>
@@ -279,9 +282,6 @@ const About = () => {
           </div>
 
           {/* Latest Projects */}
-          <p className="py-5 text-[#25886f] font-bold text-center underline cursor-pointer">
-            Check out some of my latest projects.
-          </p>
         </div>
       </div>
     </div>
