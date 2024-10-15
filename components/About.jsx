@@ -191,7 +191,8 @@ const About = () => {
                       Daffodil International University (Jan. 2018–April 2022)
                     </p>
                     <p className="text-gray-600">
-                      Bachelor of Science in Software Engineering
+                      Bachelor of Science in Software Engineering (Major in Data
+                      Science)
                     </p>
                     <p className="text-gray-600">CGPA: 3.32 out of 4.00</p>
 
