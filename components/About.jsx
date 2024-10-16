@@ -262,7 +262,7 @@ const About = () => {
                   href="https://github.com/Mohammad-Rakibuzzaman"
                   target="_blank"
                 >
-                  <p className="py-5 text-[#25886f] font-bold text-center underline cursor-pointer">
+                  <p className="py-5 text-[#4d69e2] font-bold underline cursor-pointer">
                     Check out some of my latest projects.
                   </p>
                 </a>
