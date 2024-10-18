@@ -118,7 +118,7 @@ const Main = () => {
             href="https://drive.google.com/file/d/1xU38xPJlejRCJWCM6n4DHUvC9-vGJ_2I/view?usp=sharing"
             className="px-6 py-2 sm:px-8 sm:py-3 text-sm sm:text-base lg:text-lg"
           >
-            Download Resume
+            Download CV
           </DownloadButton>
         </div>
       </div>
