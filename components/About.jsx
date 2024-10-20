@@ -161,7 +161,7 @@
 // export default About;
 
 import React from "react";
-import rtlImg from "../public/assets/profile-img.jpg";
+import rtlImg from "../public/assets/rtl.png";
 import Image from "next/image";
 
 const About = () => {
@@ -275,9 +275,9 @@ const About = () => {
         <div className="w-full h-auto m-auto col-span-1 flex flex-col items-center justify-start">
           {/* Image at the top */}
           <div className="w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] shadow-xl shadow-gray-400 rounded-full flex justify-center p-2 hover:scale-105 ease-in duration-300">
-            <Image
+            <img
               className="rounded-full object-cover"
-              src={rtlImg}
+              src="https://images.unsplash.com/photo-1608742213509-815b97c30b36?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Profile Picture"
             />
           </div>
